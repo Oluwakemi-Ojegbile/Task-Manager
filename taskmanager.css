@@ -1,0 +1,163 @@
+body {
+	border: 2px solid grey;
+	width: 700px;
+	height: 600px;
+	margin-left: 350px;
+	align-items: center;
+	border-radius: 20px;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.header{
+position: relative;
+float: center;
+text-align: center;
+border-bottom: 1px solid black;
+
+}
+
+h1 {
+background-color: #07f;
+font-size: 30px;
+border-radius: 5px;
+text-align: center;
+padding: 5px;
+margin-top: 0px;
+color: white;
+}
+
+#search-task{
+text-align: center;
+border-style: solid center;
+border-radius: 5px; 
+margin-top: -20px;
+padding: 5px;
+border-color: #05f;
+border-bottom-color: #333;
+color: white;
+}
+
+.menu-icon {
+display:block;
+cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+width: 25px;
+height: 3px;
+background-color: black;
+margin: 6px;
+transition: 0.4s;
+cursor: pointer;
+}
+
+#welcome {
+	float: center;
+	font-size: 18px;
+	color: red;
+	background-color: honeydew;
+	padding: 10px;
+	margin-left: 10px;
+	width: 600px;
+	display: none;
+	border-color: black;
+	border-top: 2px;
+	border-left: 2px;
+	border-right: 2px;
+	border-bottom: 2px;
+}
+
+.body-below {
+margin: 0px;
+font-size: 14px;
+padding-right: 0px;
+}
+
+input[type="text"] {
+	border: 1px solid black;
+	width: 300px;
+	margin: 0;
+	padding: 15px;
+	padding-top: 0px;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	padding-bottom: 20px;
+	font-size: 16px;
+	-webkit-transition: width 0.4s ease-in-out;
+}
+
+.leftside {
+	float: left;
+	width: 59%;
+	height: 500px;
+	padding: 20px;
+	color: rgba(35 24 27);
+	font-size: 14px;
+}
+
+.rightside {
+	float: right;
+	color: white;
+	font-size: 18px;
+	cursor: pointer;
+	margin-right: 0px;
+	padding: 0px;
+}
+
+.form-control {
+	width: 400px;
+	height: 18px;
+	margin-left: 50px;
+	margin-top: 30px;
+	border: 2px solid black;
+	align-content: center;
+	line-height: 10px;
+	text-align: center;
+}
+
+#edit {
+font-size: 16px;
+background-color: #07f;
+border-color: black;
+cursor: pointer;
+}
+
+#checkbox {
+font-size: 15pt;
+background-color: #07f;
+border-color: black;
+cursor: pointer;
+}
+
+
+.add {
+	color: #333;
+	float: center;
+	font-size: 16pt;
+	background-color: #07f;
+	border-color: black;
+	cursor: pointer;
+	margin-bottom: 5px;
+}
+
+#drop {
+	width: 200px;
+	height: 350px;
+	border: 1px solid;
+	font-size: 16px;
+	background-color: #07f;
+}
+
+ul {
+padding: 0;
+text-align: left;
+list-style:;
+border: 2px bold;
+}
+
+.remove {
+float: right;
+cursor: pointer;
+}

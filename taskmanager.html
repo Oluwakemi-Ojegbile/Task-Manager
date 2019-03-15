@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task Manager</title>
+	<link rel="stylesheet" type="text/css" href="taskmanager.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+		<header class="header">
+			<h1>TASK MANAGER</h1>
+			<form id="search-task"><input type="text" placeholder="Search task..." style="background-color: #07f; font-size: 16px; text-align: center;"></form>
+		</header>
+
+		<div class="body-container">
+								<table><td><button class="menu-icon">
+							<div class="bar1"></div>
+							<div class="bar2"></div>
+							<div class="bar3"></div>
+						</button><br>
+				<td><p id="welcome">Welcome to Task Manager,we love you!!</p></td>
+						</td></table>
+			</div>
+
+		<div class="body-below">
+			<div class="leftside"><form class="add-items">
+			<table><tr>
+			<td><input type="text" class="form-control" id="todo-list-item"></td><br>
+			<td><button id="edit">Edit</button></td>
+			<td><button id="checkbox">&#x2714;</button></td></tr>
+
+			<tr>
+			<td><input type="text" class="form-control" id="todo-list-item"></td><br>
+			
+
+			<tr>
+			<td><input type="text" class="form-control" id="todo-list-item"></td><br>
+			
+			<tr>
+			<td><button class="add" type="submit">Add Task</button></td>
+		</tr></table></div></form>
+
+			 <div class="rightside">
+			 	<input id="completed" type="submit" value="COMPLETED" style="background-color: #07f; width: 200px;"><br><br>
+			 	<div id="drop"><ul id="list-items">
+			 		<li></li>
+			 	</ul></div>
+			 			
+	</div>
+	<script type="text/javascript" src="taskmanager.js"></script>
+</body>
+</html>
